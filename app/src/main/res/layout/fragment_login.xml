@@ -98,6 +98,7 @@ android:paddingBottom="10dp"
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
+            android:textColor="@color/white"
             app:placeholderText="example@mail.com"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -137,7 +138,8 @@ android:paddingBottom="10dp"
             app:placeholderText="example@mail.com"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:inputType="textEmailAddress"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
             android:singleLine="true" />
     </com.google.android.material.textfield.TextInputLayout>
 
